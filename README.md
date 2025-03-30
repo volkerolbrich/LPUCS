@@ -27,9 +27,9 @@ https://github.com/notthebee
 
 Add badges from somewhere like: [shields.io](https://shields.io/)
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
 
 
 ## Contributing
@@ -54,23 +54,58 @@ Go to the project directory
 ```bash
   cd LPUCS
  
-  chmod -x scriptyouwant.sh
+  chmod -x LPUCS_v6_1.sh
 
-  ./scriptyouwant.sh like ./LPUCS_v6.sh
+  ./LPUCS_v6_1.sh
 ```
 
-The tool schould find out all dependencies that are missing nd install them
+or, if you don´t want to clone the whole repo, just be lazy
+
+```bash
+  nano LPUCS_v6_1,sh
+```
+copy paste the script from here, save the file
+
+and then:
+
+
+```bash
+ chmod -x LPUCS_v6_1.sh
+
+  ./LPUCS_v6_1.sh
+```
+
+The tool schould find out all dependencies that are missing and install them.
+
+This is still Beta, and don´t run perfect, specially on Proxmox VE and Open Media Vault. This Products uses there own package managment.
+
+So pay attention and know what you are doing!
+
+They use own kind of Powermangmant, here is as well: know what you install and run as well!
+
+---------------------------------------------------
+
+And finally, another important point for me:
+
+Don't just install any scripts from the internet, preferably as root, without checking them first!
+
+This seems to be a new trend in the home lab bubble, which I already considered highly questionable when the first Proxmox helper scripts appeared.
+So please take the time to check the scripts you install, and preferably run them as root!
+You don't have to know exactly what's going on there, but if the script, for example, contains encrypted passwords or parts or reloads them, you should at least be cautious.
+
+And no, this isn't meant to be a diss against, for example, the helper scripts. I also like to use them regularly, but I do check them first...
 
 
 
 ## Roadmap
 
-- better usabillity if you are running this as root or other user, to find out if we need to sudo all commands or not
+- better usabillity if you are running this as root or other user, to find out if we need to sudo all commands or not. Better detection, display and reloading of missing packages and repositories
 
 - better funktionality with proxmox pve
 
 - testing and corrections for alpine linux
 
+. 
 
 ## 🚀 About Me
 First tryouts in Coding since Kixtart Script in NT4.0 or c64 Assembler...
