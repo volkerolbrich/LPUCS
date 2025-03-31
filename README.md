@@ -54,7 +54,7 @@ Go to the project directory
 ```bash
   cd LPUCS
  
-  chmod -x LPUCS_v6_1.sh
+  chmod +x LPUCS_v6_1.sh
 
   ./LPUCS_v6_1.sh
 ```
@@ -70,7 +70,7 @@ and then:
 
 
 ```bash
- chmod -x LPUCS_v6_1.sh
+ chmod +x LPUCS_v6_1.sh
 
   ./LPUCS_v6_1.sh
 ```
