@@ -54,15 +54,15 @@ Go to the project directory
 ```bash
   cd LPUCS
  
-  chmod +x LPUCS_v6_1.sh
+  chmod +x LPUCS_v6_2.sh
 
-  ./LPUCS_v6_1.sh
+  ./LPUCS_v6_2.sh
 ```
 
 or, if you don´t want to clone the whole repo, just be lazy
 
 ```bash
-  nano LPUCS_v6_1,sh
+  nano LPUCS_v6_2.sh
 ```
 copy paste the script from here, save the file
 
@@ -70,9 +70,9 @@ and then:
 
 
 ```bash
- chmod +x LPUCS_v6_1.sh
+ chmod +x LPUCS_v6_2.sh
 
-  ./LPUCS_v6_1.sh
+  ./LPUCS_v6_2.sh
 ```
 
 The tool schould find out all dependencies that are missing and install them.
